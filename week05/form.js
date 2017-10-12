@@ -1,4 +1,4 @@
-var registration_form = document.getElmentById("registration_form");
+var registration_form = document.getElementById("registration_form");
 
 function handleSubmission(event){
 	var username = registration_form.elements.username;
