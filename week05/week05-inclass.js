@@ -9,13 +9,12 @@ document.getElementById("num2").innerHTML = v2;
 
 
 
-var total = document.getElementById("sum").value;
-
 
 //button-check the answer
 document.getElementById("checkAnswer").addEventListener("click", check);
 
 function check(){
+	var total = document.getElementById("sum").value;
 	if (total == v1 + v2){
 		alert("Got the right answer!");
 	} else {
@@ -31,3 +30,26 @@ document.getElementById("nextProblem").addEventListener("click", next);
 function next(){
 
 }
+
+
+
+
+//To do list
+document.getElementById("newTask_txt").addEventListener("click", addItem);
+
+function addItem(){
+	var listItem = document.createElement("newList");
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
